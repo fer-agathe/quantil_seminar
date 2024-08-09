@@ -1,0 +1,27 @@
+# Ignore everything
+*
+!.gitignore
+!*.yml
+!*.py
+!*.md
+!*.rst
+!requirements.txt
+!LICENSE
+!template.latex
+!*/
+!versioning/minor_build.json
+examples/**/*
+notebooks/**/*
+!docs/**/*
+
+__pycache__/
+.DS_Store
+docs/_build/
+docs/_static/
+docs/_templates
+.eggs/**/*
+
+cenv*
+venv*
+.venv*
+data*
